@@ -6,7 +6,7 @@ There are 3 types of processes:
 2) Port master  
 3) Port monitor  
 
-Any vessel wishing to berthing remains out of port space (Figure 1) and should first agree with the port master to get an order of approach along with a specific berthing space.  
+Any vessel wishing to berth remains out of the port space and should first agree with the port master to get an order of approach along with a specific berthing space.
 When a boat enters, exits, or maneuvers in the harbor area it should
 always be the only ship in motion in this limited space.
 When the port master makes sure that there is no traffic in the port area, he lets the next ship proceed.
@@ -30,4 +30,4 @@ per category and overall for all vessels.
 For the implementation we are asked to use semaphores for the successful communication between the processes. Each process is attached to a shared segment where the public ledger is stored. The processes should be able to sleep instead of causing a 'busy waiting' problem.
 
 ---------------
-Operating Systems 2018
+This project was one of the assignments in the Operating Systems course in 2018.
